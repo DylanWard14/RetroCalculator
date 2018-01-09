@@ -14,6 +14,8 @@
 		5BA07D142004D424002E4132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA07D122004D424002E4132 /* LaunchScreen.storyboard */; };
 		5BA07D1F2004D424002E4132 /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA07D1E2004D424002E4132 /* RetroCalculatorTests.swift */; };
 		5BA07D2A2004D424002E4132 /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA07D292004D424002E4132 /* RetroCalculatorUITests.swift */; };
+		5BA07D382004E7B4002E4132 /* PerfectLed123.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BA07D372004E7B4002E4132 /* PerfectLed123.ttf */; };
+		5BA07D3A2004E8B8002E4132 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BA07D392004E8B8002E4132 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5BA07D252004D424002E4132 /* RetroCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA07D292004D424002E4132 /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
 		5BA07D2B2004D424002E4132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA07D372004E7B4002E4132 /* PerfectLed123.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PerfectLed123.ttf; sourceTree = "<group>"; };
+		5BA07D392004E8B8002E4132 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		5BA07D082004D424002E4132 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				5BA07D392004E8B8002E4132 /* btn.wav */,
+				5BA07D372004E7B4002E4132 /* PerfectLed123.ttf */,
 				5BA07D092004D424002E4132 /* AppDelegate.swift */,
 				5BA07D0B2004D424002E4132 /* ViewController.swift */,
 				5BA07D0D2004D424002E4132 /* Main.storyboard */,
@@ -232,7 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA07D3A2004E8B8002E4132 /* btn.wav in Resources */,
 				5BA07D142004D424002E4132 /* LaunchScreen.storyboard in Resources */,
+				5BA07D382004E7B4002E4132 /* PerfectLed123.ttf in Resources */,
 				5BA07D112004D424002E4132 /* Assets.xcassets in Resources */,
 				5BA07D0F2004D424002E4132 /* Main.storyboard in Resources */,
 			);
